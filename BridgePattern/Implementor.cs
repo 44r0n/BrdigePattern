@@ -1,7 +1,7 @@
-﻿using System;
-namespace BridgePattern
+﻿namespace BridgePattern
 {
     public interface Implementor
     {
+        void OperationImp();
     }
 }

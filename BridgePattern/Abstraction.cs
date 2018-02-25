@@ -1,10 +1,17 @@
-﻿using System;
-namespace BridgePattern
+﻿namespace BridgePattern
 {
-    public class Abstraction
+    public abstract class Abstraction
     {
-        public Abstraction()
+        private Implementor implementor;
+
+        public void Operation()
         {
+            implementor.OperationImp();
+        }
+
+        public void SetImplementor(Implementor implementor)
+        {
+            this.implementor = implementor;
         }
     }
 }

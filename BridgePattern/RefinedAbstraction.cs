@@ -1,10 +1,7 @@
-﻿using System;
-namespace BridgePattern
+﻿namespace BridgePattern
 {
-    public class RefinedAbstraction
+    public class RefinedAbstraction : Abstraction
     {
-        public RefinedAbstraction()
-        {
-        }
+        
     }
 }

@@ -1,10 +1,11 @@
 ﻿using System;
 namespace BridgePattern
 {
-    public class ConcreteImplementorB
+    public class ConcreteImplementorB : Implementor
     {
-        public ConcreteImplementorB()
+        public void OperationImp()
         {
+            Console.WriteLine("I am in ConcreteImplementorB");
         }
     }
 }
